@@ -293,7 +293,7 @@ function Hero() {
                 <ul className="list-inside flex flex-col flex-wrap my-16">
                     <div className="flex flex-row items-start mb-2 lg:items-center md:items-center sm:items-center">
                         <img src={disc} alt='icon' className="w-4 h-4 mr-4 p-0.5" />
-                        <li className="text-pure-white text-base sm:text-lg md:text-xl lg:text-xl" key="1">You can earn Psydoge token reward with challenge !</li>
+                        <li className="text-pure-white text-base sm:text-lg md:text-xl lg:text-xl" key="1">You can earn Wire  token reward with challenge !</li>
                     </div>
                     <div className="flex flex-row items-start mb-2 lg:items-center md:items-center sm:items-center">
                         <img src={disc} alt='icon' className="w-4 h-4 mr-4 p-0.5" />
@@ -360,7 +360,7 @@ function Hero() {
 
 
 
-                <p className="text-xl text-pure-white font-semibold mt-20">If you bet 100 PSYD token (min bet 100, max bet 40,000)</p>
+                <p className="text-xl text-pure-white font-semibold mt-20">If you bet 100 Wire token (min bet 100, max bet 40,000)</p>
                 <div className="flex flex-row align-center justify-center sm:flex-col">
                     <table className=" text-white rounded-t-lg mt-4">
                         <thead>
@@ -442,7 +442,7 @@ function Hero() {
                                 </div>
                                 <div className="flex flex-row items-start mb-1 lg:items-center md:items-center sm:items-start">
                                     <img src={handIcon} alt='icon' className="w-9 h-9 mr-4 sm:mt-1 p-0.5" />
-                                    <li className="text-pure-white text-base sm:text-lg md:text-xl lg:text-xl" key="7">Min Bet is 100 PSYD Token, Max Bet is 40,000 PSYD Token</li>
+                                    <li className="text-pure-white text-base sm:text-lg md:text-xl lg:text-xl" key="7">Min Bet is 100 Wire Token, Max Bet is 40,000 Wire Token</li>
                                 </div>
                             </ul>
                         </div>
@@ -459,12 +459,12 @@ function Hero() {
                                 <div className="mt-4 overflow-auto h-56">
                                     {
                                         cardList && cardList?.map((item, index) => {
-                                            return (item[0] === "1") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={One} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
-                                                (item[0] === "2") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Two} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
-                                                    (item[0] === "3") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Three} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
-                                                        (item[0] === "4") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Four} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
-                                                            (item[0] === "5") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Five} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
-                                                                (item[0] === "6") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Six} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div> :
+                                            return (item[0] === "1") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={One} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
+                                                (item[0] === "2") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Two} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
+                                                    (item[0] === "3") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Three} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
+                                                        (item[0] === "4") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Four} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
+                                                            (item[0] === "5") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Five} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
+                                                                (item[0] === "6") ? <div className="flex flex-row items-center justify-start sm:justify-start"><img src={Six} alt="img1" className="mr-4 mb-2 w-16 h-20" key={index} /><div className="ml-16 mr-24"><p className="text-white text-lg">1</p></div><div><p className="text-white text-lg mr-6"> {Web3.utils.fromWei(item[1])} Wire</p></div></div> :
                                                                     null;
                                         })
                                     }
@@ -478,12 +478,12 @@ function Hero() {
                                     <Slider {...settings} className="w-96">
 
                                         {cardList.map(item => {
-                                            return (item[0] === "1") ? <div className="flex flex-row !important items-center justify-start sm:justify-start"><img src={One} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Wind Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 1 (WIND)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
-                                                : (item[0] === "2") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Two} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Water Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 2 (WATER)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
-                                                    : (item[0] === "3") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Three} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Fire Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 3 (FIRE)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
-                                                        : (item[0] === "4") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Four} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Light Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 4 (LIGHT)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
-                                                            : (item[0] === "5") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Five} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Earth Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 5 (EARTH)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
-                                                                : (item[0] === "6") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Six} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Dark Psydoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 6 (DARK)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} PSYD</p></div></div>
+                                            return (item[0] === "1") ? <div className="flex flex-row !important items-center justify-start sm:justify-start"><img src={One} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Wind Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 1 (WIND)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
+                                                : (item[0] === "2") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Two} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Water Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 2 (WATER)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
+                                                    : (item[0] === "3") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Three} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Fire Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 3 (FIRE)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
+                                                        : (item[0] === "4") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Four} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Light Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 4 (LIGHT)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
+                                                            : (item[0] === "5") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Five} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Earth Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 5 (EARTH)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
+                                                                : (item[0] === "6") ? <div className="flex flex-row !important items-center justify-start sm:justify-start "><img src={Six} alt="img1" className="mr-4 mb-4 w-30 h-48 mt-6" /><div><h4 className="text-main text-xl font-semibold">#2021 Dark Wireoge</h4><h3 className="text-main text-xl sm:text-2xl font-bold">Level: 6 (DARK)</h3><p className="mt-6 text-main font-semibold text-lg">Your Reward:</p><p className="text-white text-lg"> {Web3.utils.fromWei(item[1])} Wire</p></div></div>
                                                                     : null
 
                                         })
@@ -507,14 +507,14 @@ function Hero() {
                             <>
                                 <div className="flex flex-row items-center justify-between mb-4">
                                     <h3 className="sm:text-2xl xsm:text-lg text-main font-semibold">My Wallet</h3>
-                                    <span className="sm:text-xl xsm:text-md text-white font-semibold">{mybalance} PSYD</span>
+                                    <span className="sm:text-xl xsm:text-md text-white font-semibold">{mybalance} Wire</span>
                                 </div>
                                 <li className=" hidden text-pure-white text-base sm:text-lg md:text-xl lg:text-xl">6 level card can be selected with random game.</li>
                                 <div className="flex flex-row items-center justify-between py-4">
                                     <h3 className="sm:text-2xl xsm:text-lg text-main font-semibold">Bet Amount</h3>
                                     <div>
                                         <input className="bg-dt-gr text-white focus:ring-2 border border-gray-500 focus:border-gray-600 xsm:w-32 sm:w-48 md:w-40 lg:w-32  py-2 px-4 rounded mr-6" type="number" min="100" max="1000" onChange={handleChange} value={value} />
-                                        <span className="sm:text-xl xsm:text-lg text-white font-semibold">PSYD</span>
+                                        <span className="sm:text-xl xsm:text-lg text-white font-semibold">Wire</span>
                                     </div>
                                 </div>
                                 <div className="mt-6">
